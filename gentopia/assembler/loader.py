@@ -21,7 +21,6 @@ class Loader(yaml.SafeLoader):
     def __init__(self, stream: IO[Any]) -> None:
         """
            Initializes a new instance of the Loader class.
-
            :param stream: The stream to load YAML from.
            :type stream: IOBase
        """
@@ -35,13 +34,12 @@ class Loader(yaml.SafeLoader):
 
     def include(self, node: yaml.Node) -> Any:
         """
-            Loads a YAML document from a file and returns it as a Python object.
+        Loads a YAML file from a path relative to the current file. Use this tag to include other agent configs as plugins.
 
-            :param node: The YAML node representing the file path.
-            :type node: yaml.Node
-            :return: The loaded Python object.
-            :rtype: Any
-            :raises FileNotFoundError: If the specified file does not exist.
+        :param node: The YAML node to be loaded.
+        :type node: yaml.Node
+        :return: The loaded YAML file.
+        :rtype: Any
         """
         filename = Path(self.construct_scalar(node))
         if not filename.is_absolute():
@@ -51,7 +49,7 @@ class Loader(yaml.SafeLoader):
 
     def prompt(self, node: yaml.Node) -> Any:
         """
-            Returns a prompt class based on the specified string.
+            Returns a PromptTemplate class based on the specified string.
 
             :param node: The YAML node representing the prompt string.
             :type node: yaml.Node
@@ -71,13 +69,12 @@ class Loader(yaml.SafeLoader):
 
     def tool(self, node: yaml.Node) -> Any:
         """
-            Returns a tool class based on the specified string.
+        Loads a Custom BaseTool class from a path relative to the current file.
 
-            :param node: The YAML node representing the tool string.
-            :type node: yaml.Node
-            :return: The tool class.
-            :rtype: type
-            :raises AssertionError: If the resolved tool class is not a subclass of BaseTool.
+        :param node: The YAML node to be loaded.
+        :type node: yaml.Node
+        :return: The loaded BaseTool class.
+        :rtype: Any
         """
         tool = self.construct_scalar(node)
         if '.' in tool:
@@ -91,24 +88,23 @@ class Loader(yaml.SafeLoader):
 
     def env(self, node: yaml.Node) -> Any:
         """
-            Returns the value of an environment variable.
+        Loads an environment variable from the current environment, defaults to an empty string if the variable is not set.
 
-            :param node: The YAML node representing the environment variable name.
-            :type node: yaml.Node
-            :return: The value of the environment variable, or an empty string if it is not set.
-            :rtype: str
+        :param node: The YAML node to be loaded.
+        :type node: yaml.Node
+        :return: The loaded environment variable.
+        :rtype: Any
         """
         return os.environ.get(self.construct_scalar(node), "")
 
     def file(self, node: yaml.Node) -> Any:
         """
-            Returns the contents of a file.
+        Loads any readable file from a path relative to the current file.
 
-            :param node: The YAML node representing the file path.
-            :type node: yaml.Node
-            :return: The contents of the file as a string.
-            :rtype: str
-            :raises FileNotFoundError: If the specified file does not exist.
+        :param node: The YAML node to be loaded.
+        :type node: yaml.Node
+        :return: The loaded file.
+        :rtype: Any
         """
         filename = Path(self.construct_scalar(node))
         if not filename.is_absolute():
