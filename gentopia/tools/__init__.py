@@ -29,7 +29,7 @@ def load_tools(name: str) -> BaseTool:
         return RunShell
     elif name == "search_doc":
         return SearchDoc
-    elif name == "run_python_code":
+    elif name == "python_code_interpreter":
         return PythonCodeInterpreter
 
 

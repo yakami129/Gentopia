@@ -31,7 +31,7 @@ class CodeInterpreter:
 
 class PythonCodeInterpreter(BaseTool):
     """Python Code Interpreter Tool"""
-    name = "run_python_code"
+    name = "python_code_interpreter"
     description = "A tool to execute Python code and retrieve the command line output. Input should be executable Python code."
     args_schema: Optional[Type[BaseModel]] = create_model("CodeInterpreter", code=(str, ...))
     interpreter = CodeInterpreter()
