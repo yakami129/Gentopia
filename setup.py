@@ -14,7 +14,6 @@ setup(
     install_requires=[
         'fastapi',
         'geopy',
-        'langchain',
         'optimum',
         'peft',
         'pydantic',
@@ -25,5 +24,13 @@ setup(
         'torch',
         'transformers',
         'uvicorn',
+        'python-dotenv',
+        'openai',
+        'rich',
+        'googlesearch-python',
+        'wolframalpha',
+        'arxiv',
+        'chardet',
+        'cchardet',
     ],
 )
