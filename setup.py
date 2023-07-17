@@ -24,5 +24,13 @@ setup(
         'torch',
         'transformers',
         'uvicorn',
+        'python-dotenv',
+        'openai',
+        'rich',
+        'googlesearch-python',
+        'wolframalpha',
+        'arxiv',
+        'chardet',
+        'cchardet',
     ],
 )
