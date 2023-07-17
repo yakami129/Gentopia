@@ -102,6 +102,5 @@ class GradioTool:
             self._block = gr.load(name=self.src, src="spaces")
         return self._block
 
-
     def __repr__(self) -> str:
         return f"GradioTool(name={self.name}, src={self.src})"
