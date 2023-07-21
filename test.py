@@ -23,13 +23,10 @@ if __name__ == '__main__':
     enable_log(log_level='debug')
     dotenv.load_dotenv(".env")
 
-    tool = GoogleSearch()
-    print(tool.description)
-    print(tool.run("a cute dog"))
+    assembler = AgentAssembler(file='configs/react.yaml')
 
-    # assembler = AgentAssembler(file='configs/react.yaml')
-    #
-    # # # assembler.manager = LocalLLMManager()
-    # agent = assembler.get_agent()
-    #
-    # chat(agent)
+    # # assembler.manager = LocalLLMManager()
+    agent = assembler.get_agent()
+
+    chat(agent)
+

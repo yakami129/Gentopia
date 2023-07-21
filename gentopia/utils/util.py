@@ -4,14 +4,26 @@ from gentopia.prompt import fewshots
 def get_default_client_param_model(model_name: str) -> BaseParamModel:
     """
     Get the default client parameter model.
-
     :param model_name: The name of the model.
     :type model_name: str
-
     :return: The default client parameter model.
     :rtype: BaseParamModel
     """
     return None
+
+
+def check_huggingface():
+    try:
+        import torch
+        import transformers
+        import optimum
+        import peft
+        return True
+    except ImportError:
+        return False
+
+
+    
 
 def print_tree(obj, indent=0):
     """
