@@ -12,6 +12,7 @@ from gentopia.assembler.agent_assembler import AgentAssembler
 from gentopia.tools.code_interpreter import *
 from gentopia.output import enable_log
 from gentopia import chat
+from gentopia.tools.gradio import TextToImage
 
 from gentopia.tools.calculator import Calculator
 
@@ -22,9 +23,9 @@ if __name__ == '__main__':
     enable_log(log_level='debug')
     dotenv.load_dotenv(".env")
 
-    tool = Calculator()
+    tool = GoogleSearch()
     print(tool.description)
-    print(tool.run("32^32"))
+    print(tool.run("a cute dog"))
 
     # assembler = AgentAssembler(file='configs/react.yaml')
     #

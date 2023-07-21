@@ -7,6 +7,7 @@ from .arxiv_search import ArxivSearch
 from .weather import *
 from .shell import RunShell
 from .search_doc import SearchDoc
+from .gradio import *
 from .code_interpreter import PythonCodeInterpreter
 
 
@@ -31,6 +32,8 @@ def load_tools(name: str) -> BaseTool:
         return SearchDoc
     elif name == "python_code_interpreter":
         return PythonCodeInterpreter
+    elif name == "text_to_image":
+        return TextToImage
 
 
 
