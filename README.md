@@ -18,7 +18,7 @@ There's no universal rule to optimize agents, but a platform enabling *agent spe
 
 ## Demo & Tutorials 
 
-Grab a coffee ☕ and take ~ 10 mins to walk through the following demos 👀
+First time to Gentopia? Grab a coffee ☕ and take ~ 10 mins to check out following demos 👀
 
 <div style="display: flex; justify-content: space-around;">
   
