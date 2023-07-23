@@ -48,7 +48,7 @@ Participate in this Utopia of superintelligence and help it grows! As a fully op
 - 🐛 Post an [issue](https://github.com/Gentopia-AI/Gentopia/issues) requesting necessary bug fixes, additional features, or roadmap suggestions. (Check closed ones first)
 - 🎯 Our dev team meets weekly to groom [backlog](https://github.com/orgs/Gentopia-AI/projects/1) into tickets. While we work on them, you can pick up others and create a [Pull Request](https://github.com/Gentopia-AI/Gentopia/pulls) to request a merge. We always welcome new members in this way.
 - 🤝 Share your specialized agent to [GentPool](https://github.com/Gentopia-AI/GentPool)! Create an Agent PR ([example]()) to merge your well-tuned agent into the pool. This allows others to use or build upon your agent. 
-- ⭐ Help us spread! Give us a star, follow us on [Twitter](), join our [Discord](), and share with your friends!  
+- ⭐ Help us spread! Give us a star, follow us on [Twitter](https://twitter.com/GentopiaAI), join our [Discord](https://discord.gg/ASPP9MY9QK), and share with your friends!  
 
 
 
