@@ -23,15 +23,15 @@ Grab a coffee ☕ and take ~ 10 mins to walk through the following demos 👀
 <div style="display: flex; justify-content: space-around;">
   
 <a href="https://www.youtube.com/watch?v=7dZ3ZvsI7sw" target="_blank">
-  <img src="https://img.youtube.com/vi/7dZ3ZvsI7sw/hqdefault.jpg" alt="Video 1" style="width:33%;">
+  <img src="https://img.youtube.com/vi/7dZ3ZvsI7sw/hqdefault.jpg" alt="Video 1" style="width:30%;">
 </a>
 
 <a href="https://www.youtube.com/watch?v=XTsv9pk6AOA" target="_blank">
-  <img src="https://img.youtube.com/vi/XTsv9pk6AOA/hqdefault.jpg" alt="Video 2" style="width:33%;">
+  <img src="https://img.youtube.com/vi/XTsv9pk6AOA/hqdefault.jpg" alt="Video 2" style="width:30%;">
 </a>
 
 <a href="https://www.youtube.com/watch?v=diJ4IDaT4Z4" target="_blank">
-  <img src="https://img.youtube.com/vi/diJ4IDaT4Z4/hqdefault.jpg" alt="Video 3" style="width:33%;">
+  <img src="https://img.youtube.com/vi/diJ4IDaT4Z4/hqdefault.jpg" alt="Video 3" style="width:30%;">
 </a>
 
 </div>
