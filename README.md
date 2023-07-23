@@ -3,7 +3,7 @@
 
 Gentopia is a lightweight and extensible framework for LLM driven autonomous Agent. It provides multiple essential components to build, test and evaluate agents. At its core, Gentopia aims to embody agents with single config files, thus minimizing your effort in maintaining, tuning, and sharing agents.
 
-Gentopia maintains a pool [GentPool](https://github.com/Gentopia-AI/GentPool) to share public agents specialized for different tasks. In this platform, you could easily call other agents for interaction, extend and optimize agent components towards your needs. You can also publish your specialized agent to get our unique benchmark eval and share your agent with the world. 
+Gentopia maintains a agent zoo [GentPool](https://github.com/Gentopia-AI/GentPool) to share public agents specialized for different tasks. In this platform, you could easily call other agents for interaction, extend and optimize agent components towards your needs. You can also publish your specialized agent to get our unique benchmark eval and share your agent with the world. 
 
 There's no universal rule to optimize agents, but a platform enabling *agent specialization, sharing, and interaction* is the golden path to some greater intelligence, a belief guiding us to build Gentopia.
 
