@@ -5,7 +5,21 @@ Gentopia is a lightweight and extensible framework for LLM driven autonomous Age
 
 Gentopia maintains an agent zoo [GentPool](https://github.com/Gentopia-AI/GentPool) to share public agents specialized for different tasks. In this platform, you could easily call other agents for interaction, extend and optimize agent components towards your needs. You can also publish your specialized agent to get our unique benchmark eval and share your agent with the world. 
 
-There's no universal rule to optimize agents, but a platform enabling *agent specialization, sharing, and interaction* is the golden path to some greater intelligence, a belief guiding us to build Gentopia.
+## Motivation
+Think of building a *real* AI assistant. Do we really need a >> 175B GPT-4 to summarize Web search or `print("helloworld")`? Recent studies like [TinyStories](https://arxiv.org/abs/2301.12726), [Specializing Reasoning](https://arxiv.org/abs/2301.12726), [Let's Verify SbS](https://arxiv.org/abs/2305.20050), [ReWOO](https://arxiv.org/abs/2305.18323), etc. point us towards an intuitive yet undervalued direction 👉 
+
+```
+An LLM is more capable if you create a context/distribution shift narrowed to some target tasks.
+```
+Sadly, there is no silver bullet for such specialization. For example, you can 
+- Add `You are a Math professor and expert` in your ***prompt*** for better logical reasoning performance.
+- Supervise ***fine-tuning*** (SFT) your 70B `llama2` like [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050) for close or superior Math capability than 175B GPT-3.5.
+- Optimize your LLM-Plugin interaction **paradigm** like this [demo](https://www.youtube.com/watch?v=diJ4IDaT4Z4) to easily double execution time for Seach & Summarize.
+- And more ...
+
+Isn't that beautiful if one shares his specialized intelligence, allowing others to reproduce, build on, or interact with that it at ease? 🤗
+
+This belief inspires us to build Gentopia, **a convenient framework for agent *specialization, sharing, and interaction,* encouraging collective growth to a greater intelligence**.
 
 ## Core Features 💡
 
