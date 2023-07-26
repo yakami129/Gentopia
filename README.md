@@ -14,8 +14,8 @@ An LLM is more capable if you create a context/distribution shift narrowed to so
 Sadly, there is no silver bullet for agent specialization. For example, you can 
 - Simply add `Let's think step by step.` in your **prompt** for more accurate Math QA.
 - Give a **few-shot** exemplar in your prompt to guide a better reasoning trajectory for novel plotting.
-- Supervise **fine-tuning*** (SFT) your 70B `llama2` like [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050) for close or superior Math capability than 175B GPT-3.5.
-- Optimize your LLM-Plugin interaction **paradigm** like this [demo](https://www.youtube.com/watch?v=diJ4IDaT4Z4) to easily half the execution time for Seach & Summarize.
+- Supervise **fine-tuning** (SFT) your 70B `llama2` like [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050) for close or superior Math capability than 175B GPT-3.5.
+- Optimize your agent **paradigm** like this [demo](https://www.youtube.com/watch?v=diJ4IDaT4Z4) to easily half the execution time for Seach & Summarize.
 - And more ...
 
 Isn't that beautiful if one shares his specialized intelligence, allowing others to reproduce, build on, or interact with it at ease? 🤗
