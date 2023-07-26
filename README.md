@@ -18,9 +18,8 @@ Sadly, there is no silver bullet for agent specialization. For example, you can
 - Tune your agent **paradigm** like this [demo](https://www.youtube.com/watch?v=diJ4IDaT4Z4) to easily half the execution time for Seach & Summarize.
 - And more ...
 
-Isn't that beautiful if one shares his specialized intelligence, allowing others to reproduce, build on, or interact with it at ease? 🤗
-
-This belief inspires us to build Gentopia, **a convenient framework for agent *specialization, sharing, and interaction,* encouraging collective growth to greater intelligence**.
+Isn't that beautiful if one shares his specialized intelligence, allowing others to reproduce, build on, or interact with it at ease? 🤗 This belief inspires us to build Gentopia, 
+**a convenient framework for agent *specialization, sharing, and interaction,* encouraging collective growth to greater intelligence**.
 
 ## Core Features 💡
 
