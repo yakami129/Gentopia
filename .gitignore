@@ -5,7 +5,6 @@ test.py
 notebooks/test.ipynb
 .chroma
 node_modules/
-app.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
