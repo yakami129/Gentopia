@@ -4,14 +4,6 @@ gentopia.prompt package
 Submodules
 ----------
 
-gentopia.prompt.fewshots module
--------------------------------
-
-.. automodule:: gentopia.prompt.fewshots
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 gentopia.prompt.prompt\_template module
 ---------------------------------------
 
