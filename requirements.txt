@@ -25,5 +25,4 @@ numpy~=1.24.2
 chromadb~=0.3.26
 tenacity~=8.2.2
 numexpr~=2.8.4
-myst-parser
 
