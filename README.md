@@ -1,15 +1,16 @@
 # Gentopia 
-*The Collective Growth of Intelligent Agents.*
+*The Collective Growth of Intelligent Agents.* 🦙🌎
 
-Gentopia is a lightweight and extensible framework for LLM driven autonomous Agent. It provides multiple essential components to build, test and evaluate agents. At its core, Gentopia aims to embody agents with single config files, thus minimizing your effort in maintaining, tuning, and sharing agents.
+Gentopia is a lightweight and extensible framework for LLM-driven Agents and [ALM](https://arxiv.org/abs/2302.07842)  research. It provides multiple essential components to build, test and evaluate agents. At its core, Gentopia aims to embody agents with single config files, thus minimizing your effort in maintaining, tuning, and sharing agents.
 
-Gentopia maintains an agent zoo [GentPool](https://github.com/Gentopia-AI/GentPool) to share public agents specialized for different tasks. In this platform, you could easily call other agents for interaction, extend and optimize agent components towards your needs. You can also publish your specialized agent to get our unique benchmark eval and share your agent with the world. 
+Gentopia maintains an agent zoo [GentPool](https://github.com/Gentopia-AI/GentPool) to share public agents specialized for different tasks. In this platform, you could easily *interact* with other agents by cloning, hierarchical plug-in, or sharing environment. We also build a unique agent [benchmark](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation) for holistic ALM evaluation. 
 
-## Motivation
-Think of building a *real* AI assistant. Do we really need a >> 175B GPT-4 to summarize Web search or `print("helloworld")`? Recent studies like [TinyStories](https://arxiv.org/abs/2301.12726), [Specializing Reasoning](https://arxiv.org/abs/2301.12726), [Let's Verify SbS](https://arxiv.org/abs/2305.20050), [ReWOO](https://arxiv.org/abs/2305.18323), etc. point us towards an intuitive yet undervalued direction 👉 
+## Motivation 🧠
+Agent practitioners start to realize the difficulty in tuning a "well-rounded" agent with tons of tools or instructions in single layer.
+Recent studies like [TinyStories](https://arxiv.org/abs/2301.12726), [Specializing Reasoning](https://arxiv.org/abs/2301.12726), [Let's Verify SbS](https://arxiv.org/abs/2305.20050), [ReWOO](https://arxiv.org/abs/2305.18323), etc. also point us towards an intuitive yet undervalued direction 👉 
 
 ```
-An LLM is more capable if you create a context/distribution shift narrowed to some target tasks.
+An LLM is more capable if you create a context/distribution shift specialized to some target tasks.
 ```
 Sadly, there is no silver bullet for agent specialization. For example, you can 
 - Simply add `Let's think step by step.` in your **prompt** for more accurate Math QA.
@@ -18,8 +19,8 @@ Sadly, there is no silver bullet for agent specialization. For example, you can
 - Tune your agent **paradigm** like this [demo](https://www.youtube.com/watch?v=diJ4IDaT4Z4) to easily half the execution time for Seach & Summarize.
 - And more ...
 
-Isn't that beautiful if one shares his specialized intelligence, allowing others to reproduce, build on, or interact with it at ease? 🤗 This belief inspires us to build Gentopia, 
-**a convenient framework for agent *specialization, sharing, and interaction,* encouraging collective growth to greater intelligence**.
+Isn't it beautiful if one shares his specialized intelligence, allowing others to reproduce, build on, or interact with it at ease? 🤗 This belief inspires us to build Gentopia, 
+**designed for agent *specialization, sharing, and interaction,* to achieve collective growth towards greater intelligence**.
 
 ## Core Features 💡
 
@@ -30,9 +31,13 @@ Isn't that beautiful if one shares his specialized intelligence, allowing others
 - 🤝 Enabling multi-agent interactions.
 - 🦁 Unique platform of agent zoo and eval benchmark.
 
-## Demo & Tutorials 
+## Quick Start
+```
+pip install gentopia
+```
+or if you want to build with open LLMs locally 👉 `pip install gentopia[huggingface]`
 
-First time to Gentopia? Grab a coffee ☕ and take ~ 10 mins to check out following demos 👀
+First time to Gentopia? Grab a coffee ☕ and take ~ 10 mins to check out the following mind-blowing demos 👀 🤯
 
 <div style="display: flex; justify-content: space-around;">
   
@@ -50,10 +55,17 @@ First time to Gentopia? Grab a coffee ☕ and take ~ 10 mins to check out follow
 
 </div>
 
+(Jump to the third one if you only have 3 mins 😅)
 
-## Quick Start
+## Documentation 📖
+See [here](https://gentopia.readthedocs.io/en/latest/index.html) for full documentation.
 
-## Documentation
+🌟 Highlight Topics 
+- [Agent Templates](https://gentopia.readthedocs.io/en/latest/quick_start.html#vanilla-agent)
+- [Hierarchical Agents](https://gentopia.readthedocs.io/en/latest/agent_components.html#agent-as-plugin)
+- [Unique Agent Benchmark](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation)
+- [Open LLM Supports](https://gentopia.readthedocs.io/en/latest/agent_components.html#huggingface-open-llms)
+- [High-Performance Memory](https://gentopia.readthedocs.io/en/latest/agent_components.html#long-short-term-memory)
 
 ## Build with us 
 
@@ -63,14 +75,5 @@ Participate in this Utopia of superintelligence and help it grows! As a fully op
 - 🎯 Our dev team meets weekly to groom [backlog](https://github.com/orgs/Gentopia-AI/projects/1) into tickets. While we work on them, you can pick up others and create a [Pull Request](https://github.com/Gentopia-AI/Gentopia/pulls) to request a merge. We always welcome new members in this way.
 - 🤝 Share your specialized agent to [GentPool](https://github.com/Gentopia-AI/GentPool)! Create an Agent PR ([example]()) to merge your well-tuned agent into the pool. This allows others to use or build upon your agent. 
 - ⭐ Help us spread! Give us a star, follow us on [Twitter](https://twitter.com/GentopiaAI), join our [Discord](https://discord.gg/ASPP9MY9QK), and share with your friends!  
-
-
-
-## Misc
-<p align="center">
-  <a href="https://star-history.com/#Torantulino/auto-gpt&Date">
-    <img src="https://api.star-history.com/svg?repos=Gentopia-AI/Gentopia&type=Date" alt="Star History Chart" style="width:60%;">
-  </a>
-</p>
 
 
