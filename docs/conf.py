@@ -21,7 +21,7 @@ release = 'V1.0.0'
 extensions = [
     'myst_parser',
     'nbsphinx',
-    # 'python_docs_theme',
+    'python_docs_theme',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',

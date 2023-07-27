@@ -37,5 +37,6 @@ setup(
         'requests',
         'setuptools',
         'uvicorn',
+        'myst-parser',
     ],
 )
