@@ -3,9 +3,10 @@
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Static Badge](https://img.shields.io/badge/release-beta-blue)
 [![Static Badge](https://img.shields.io/badge/Documentation-8A2BE2)](https://gentopia.readthedocs.io/en/latest/index.html)
 [![Static Badge](https://img.shields.io/badge/GentPool-blue)](https://github.com/Gentopia-AI/GentPool)
-[![Static Badge](https://img.shields.io/badge/Benchmark-green)](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation)
+[![Static Badge](https://img.shields.io/badge/Benchmark-orange)](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation)
 [![Static Badge](https://img.shields.io/badge/backlog-grey)](https://github.com/orgs/Gentopia-AI/projects/1)
 [![Open Issues](https://img.shields.io/github/issues-raw/Gentopia-AI/Gentopia)](https://github.com/Gentopia-AI/Gentopia/issues)
 [![Dependency Status](https://img.shields.io/librariesio/github/Gentopia-AI/Gentopia)](https://libraries.io/github/Gentopia-AI/Gentopia)
