@@ -1,5 +1,5 @@
 # Gentopia 
-🌎 *The Collective Growth of Intelligent Agents.* 🦙
+🌎 *Collective Growth of Intelligent Agents.* 🦙
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
