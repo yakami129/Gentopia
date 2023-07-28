@@ -1,12 +1,12 @@
 # Gentopia 
-*The Collective Growth of Intelligent Agents.* 🦙🌎
+🌎 *The Collective Growth of Intelligent Agents.* 🦙
 
-Gentopia is a lightweight and extensible framework for LLM-driven Agents and [ALM](https://arxiv.org/abs/2302.07842)  research. It provides multiple essential components to build, test and evaluate agents. At its core, Gentopia aims to embody agents with single config files, thus minimizing your effort in maintaining, tuning, and sharing agents.
+Gentopia is a lightweight and extensible framework for LLM-driven Agents and [ALM](https://arxiv.org/abs/2302.07842)  research. It provides essential components to build, test and evaluate agents. At its core, Gentopia aims to assemble an agent with a single config, thus minimizing your effort in building, tuning, and sharing agents. 
 
-Gentopia maintains an agent zoo [GentPool](https://github.com/Gentopia-AI/GentPool) to share public agents specialized for different tasks. In this platform, you could easily *interact* with other agents by cloning, hierarchical plug-in, or sharing environment. We also build a unique agent [benchmark](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation) for holistic ALM evaluation. 
+Gentopia maintains an agent platform [GentPool](https://github.com/Gentopia-AI/GentPool) to share specialized agents, where your agent *interacts* with other agents by cloning, hierarchical plug-in, or sharing environment. We provide a unique agent [benchmark](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation) for holistic evaluation. 
 
 ## Motivation 🧠
-Agent practitioners start to realize the difficulty in tuning a "well-rounded" agent with tons of tools or instructions in single layer.
+Agent practitioners start to realize the difficulty in tuning a "well-rounded" agent with tons of tools or instructions in a single layer.
 Recent studies like [TinyStories](https://arxiv.org/abs/2301.12726), [Specializing Reasoning](https://arxiv.org/abs/2301.12726), [Let's Verify SbS](https://arxiv.org/abs/2305.20050), [ReWOO](https://arxiv.org/abs/2305.18323), etc. also point us towards an intuitive yet undervalued direction 👉 
 
 ```
@@ -19,8 +19,8 @@ Sadly, there is no silver bullet for agent specialization. For example, you can
 - Tune your agent **paradigm** like this [demo](https://www.youtube.com/watch?v=diJ4IDaT4Z4) to easily half the execution time for Seach & Summarize.
 - And more ...
 
-Isn't it beautiful if one shares his specialized intelligence, allowing others to reproduce, build on, or interact with it at ease? 🤗 This belief inspires us to build Gentopia, 
-**designed for agent *specialization, sharing, and interaction,* to achieve collective growth towards greater intelligence**.
+Isn't it beautiful if one shares his effort in specialized intelligence, allowing others to reproduce, build on, or interact with it? 🤗 This belief inspires us to build Gentopia, 
+**designed for agent *specialization, sharing, and interaction,* to stackingly achieve collective growth towards greater intelligence.**.
 
 ## Core Features 💡
 
@@ -60,12 +60,12 @@ First time to Gentopia? Grab a coffee ☕ and take ~ 10 mins to check out the fo
 ## Documentation 📖
 See [here](https://gentopia.readthedocs.io/en/latest/index.html) for full documentation.
 
-🌟 Highlight Topics 
-- [Agent Templates](https://gentopia.readthedocs.io/en/latest/quick_start.html#vanilla-agent)
-- [Hierarchical Agents](https://gentopia.readthedocs.io/en/latest/agent_components.html#agent-as-plugin)
-- [Unique Agent Benchmark](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation)
-- [Open LLM Supports](https://gentopia.readthedocs.io/en/latest/agent_components.html#huggingface-open-llms)
-- [High-Performance Memory](https://gentopia.readthedocs.io/en/latest/agent_components.html#long-short-term-memory)
+🌟 Highlight Topics 🌟 
+- [🤖 Agent Templates](https://gentopia.readthedocs.io/en/latest/quick_start.html#vanilla-agent)
+- [⛰️ Hierarchical Agents](https://gentopia.readthedocs.io/en/latest/agent_components.html#agent-as-plugin)
+- [🥇 Unique Agent Benchmark](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation)
+- [🦙 Open LLM Supports](https://gentopia.readthedocs.io/en/latest/agent_components.html#huggingface-open-llms)
+- [🧠 High-Performance Memory](https://gentopia.readthedocs.io/en/latest/agent_components.html#long-short-term-memory)
 
 ## Build with us 🌎
 
