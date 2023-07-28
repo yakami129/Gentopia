@@ -1,6 +1,23 @@
 # Gentopia 
 🌎 *The Collective Growth of Intelligent Agents.* 🦙
 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Static Badge](https://img.shields.io/badge/Documentation-8A2BE2)](https://gentopia.readthedocs.io/en/latest/index.html)
+[![Static Badge](https://img.shields.io/badge/GentPool-blue)](https://github.com/Gentopia-AI/GentPool)
+[![Static Badge](https://img.shields.io/badge/Benchmark-green)](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation)
+[![Static Badge](https://img.shields.io/badge/backlog-grey)](https://github.com/orgs/Gentopia-AI/projects/1)
+[![Open Issues](https://img.shields.io/github/issues-raw/Gentopia-AI/Gentopia)](https://github.com/Gentopia-AI/Gentopia/issues)
+[![Dependency Status](https://img.shields.io/librariesio/github/Gentopia-AI/Gentopia)](https://libraries.io/github/Gentopia-AI/Gentopia)
+
+![Twitter Follow](https://img.shields.io/twitter/follow/GentopiaAI)
+[![](https://dcbadge.vercel.app/api/server/ASPP9MY9QK?compact=true&style=flat)](https://discord.gg/ASPP9MY9QK)
+![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC9QCjcsHJVKjKZ2Zmrq83vA)
+[![GitHub star chart](https://img.shields.io/github/stars/Gentopia-AI/Gentopia?style=social)](https://star-history.com/Gentopia-AI/Gentopia)
+
+
+
+
 Gentopia is a lightweight and extensible framework for LLM-driven Agents and [ALM](https://arxiv.org/abs/2302.07842)  research. It provides essential components to build, test and evaluate agents. At its core, Gentopia aims to assemble an agent with a single config, thus minimizing your effort in building, tuning, and sharing agents. 
 
 Gentopia maintains an agent platform [GentPool](https://github.com/Gentopia-AI/GentPool) to share specialized agents, where your agent *interacts* with other agents by cloning, hierarchical plug-in, or sharing environment. We provide a unique agent [benchmark](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation) for holistic evaluation. 
