@@ -1,7 +1,8 @@
 # Quick Start
 The best way to get started with Gentopia is to go through our short demo [tutorials](https://www.youtube.com/playlist?list=PLZ2Bx-k4vH2dyvW9md5SHx4GBQOGoIJWr).
 
-It's recommended to build your agent based on following config templates. Config details are explained [here](agent_components.md).
+Grab one of the following agent template and store it in `agent.yaml`, then jump to [Assembling Agents](quick_start.md#howto-assemble-your-agent) section. 
+See [Agent Components](agent_components.md) for custom configurations.
 
 ## Vanilla Agent
 `vanilla` agents are plain LLMs instances without any plugin. 
