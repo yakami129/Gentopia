@@ -6,14 +6,13 @@
 ![Static Badge](https://img.shields.io/badge/release-beta-blue)
 [![Static Badge](https://img.shields.io/badge/Documentation-8A2BE2)](https://gentopia.readthedocs.io/en/latest/index.html)
 [![Static Badge](https://img.shields.io/badge/GentPool-blue)](https://github.com/Gentopia-AI/GentPool)
-[![Static Badge](https://img.shields.io/badge/Benchmark-orange)](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation)
 [![Static Badge](https://img.shields.io/badge/backlog-grey)](https://github.com/orgs/Gentopia-AI/projects/1)
 [![Open Issues](https://img.shields.io/github/issues-raw/Gentopia-AI/Gentopia)](https://github.com/Gentopia-AI/Gentopia/issues)
 [![Dependency Status](https://img.shields.io/librariesio/github/Gentopia-AI/Gentopia)](https://libraries.io/github/Gentopia-AI/Gentopia)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/GentopiaAI)](https://twitter.com/GentopiaAI)
 [![](https://dcbadge.vercel.app/api/server/ASPP9MY9QK?compact=true&style=flat)](https://discord.gg/ASPP9MY9QK)
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC9QCjcsHJVKjKZ2Zmrq83vA)](https://www.youtube.com/channel/UC9QCjcsHJVKjKZ2Zmrq83vA)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/views/UC9QCjcsHJVKjKZ2Zmrq83vA)](https://www.youtube.com/channel/UC9QCjcsHJVKjKZ2Zmrq83vA)
 [![GitHub star chart](https://img.shields.io/github/stars/Gentopia-AI/Gentopia?style=social)](https://star-history.com/Gentopia-AI/Gentopia)
 
 
