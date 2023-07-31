@@ -89,7 +89,7 @@ See [here](https://gentopia.readthedocs.io/en/latest/index.html) for full docume
 - [🦙 Open LLM Supports](https://gentopia.readthedocs.io/en/latest/agent_components.html#huggingface-open-llms)
 - [🧠 High-Performance Memory](https://gentopia.readthedocs.io/en/latest/agent_components.html#long-short-term-memory)
 
-## Build with us 🌎
+## Join us! 🌎
 
 Participate in this Utopia of superintelligence and help it grows! As a fully open-source project, we develop under public advice, ideas, and supervision. Meanwhile, here are ways you may contribute to Gentopia.
 
