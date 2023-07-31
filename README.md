@@ -49,13 +49,17 @@ Isn't it beautiful if one shares his effort in specialized intelligence, allowin
 - 🤝 Enabling multi-agent interactions.
 - 🦁 Unique platform of agent zoo and eval benchmark.
 
-## Quick Start 🛫
+## Quick Start 🍏
 ```
 pip install gentopia
 ```
 or if you want to build with open LLMs locally 👉 `pip install gentopia[huggingface]`
 
-First time to Gentopia? Grab a coffee ☕ and take ~ 10 mins to check out the following mind-blowing demos 👀 🤯
+First time to Gentopia? Grab a coffee ☕ and 
+
+Take ~ 8 mins to check out the following mind-blowing demos 👀 🤯
+
+Or check out the [Quick Start](https://gentopia.readthedocs.io/en/latest/quick_start.html) Doc.
 
 <div style="display: flex; justify-content: space-around;">
   
@@ -73,7 +77,7 @@ First time to Gentopia? Grab a coffee ☕ and take ~ 10 mins to check out the fo
 
 </div>
 
-(Jump to the third one if you only have 3 mins 🤫)
+Jump to the third one if you only have 3 mins 🤫
 
 ## Documentation 📖
 See [here](https://gentopia.readthedocs.io/en/latest/index.html) for full documentation.
