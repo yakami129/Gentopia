@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     packages=find_packages(exclude=['llm', 'llm.*']),
     url='https://github.com/Gentopia-AI/Gentopia',
-    license='Apache-2.0 license',
+    license='MIT license',
     author='billxbf',
     author_email='billxbf@gmail.com',
     description='Gentopia provides extensive utilities to assembles ALM agents driven by configs.',
@@ -40,5 +40,8 @@ setup(
         'openai',
         'pexpect',
         'gradio_client',
+        'pinecone-client',
+        'chroma',
+        'chromadb',
     ],
 )
