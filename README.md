@@ -50,13 +50,15 @@ Isn't it beautiful if one shares his effort in specialized intelligence, allowin
 
 ## Quick Start 🍏
 ```
+conda create --name gentenv python=3.10
+conda activate gentenv
 pip install gentopia
 ```
 or if you want to build with open LLMs locally 👉 `pip install gentopia[huggingface]`
 
 First time to Gentopia? Grab a coffee ☕ and 
 
-Take ~ 8 mins to check out the following mind-blowing demos 👀 🤯
+Take ~ 8 mins to check out the following demo tutorials 👀 🤯
 
 Or check out the [Quick Start](https://gentopia.readthedocs.io/en/latest/quick_start.html) Doc.
 
