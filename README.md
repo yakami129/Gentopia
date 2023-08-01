@@ -6,14 +6,13 @@
 ![Static Badge](https://img.shields.io/badge/release-beta-blue)
 [![Static Badge](https://img.shields.io/badge/Documentation-8A2BE2)](https://gentopia.readthedocs.io/en/latest/index.html)
 [![Static Badge](https://img.shields.io/badge/GentPool-blue)](https://github.com/Gentopia-AI/GentPool)
-[![Static Badge](https://img.shields.io/badge/Benchmark-orange)](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation)
 [![Static Badge](https://img.shields.io/badge/backlog-grey)](https://github.com/orgs/Gentopia-AI/projects/1)
 [![Open Issues](https://img.shields.io/github/issues-raw/Gentopia-AI/Gentopia)](https://github.com/Gentopia-AI/Gentopia/issues)
 [![Dependency Status](https://img.shields.io/librariesio/github/Gentopia-AI/Gentopia)](https://libraries.io/github/Gentopia-AI/Gentopia)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/GentopiaAI)](https://twitter.com/GentopiaAI)
 [![](https://dcbadge.vercel.app/api/server/ASPP9MY9QK?compact=true&style=flat)](https://discord.gg/ASPP9MY9QK)
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC9QCjcsHJVKjKZ2Zmrq83vA)](https://www.youtube.com/channel/UC9QCjcsHJVKjKZ2Zmrq83vA)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/views/UC9QCjcsHJVKjKZ2Zmrq83vA)](https://www.youtube.com/channel/UC9QCjcsHJVKjKZ2Zmrq83vA)
 [![GitHub star chart](https://img.shields.io/github/stars/Gentopia-AI/Gentopia?style=social)](https://star-history.com/Gentopia-AI/Gentopia)
 
 
@@ -49,13 +48,19 @@ Isn't it beautiful if one shares his effort in specialized intelligence, allowin
 - 🤝 Enabling multi-agent interactions.
 - 🦁 Unique platform of agent zoo and eval benchmark.
 
-## Quick Start 🛫
+## Quick Start 🍏
 ```
+conda create --name gentenv python=3.10
+conda activate gentenv
 pip install gentopia
 ```
 or if you want to build with open LLMs locally 👉 `pip install gentopia[huggingface]`
 
-First time to Gentopia? Grab a coffee ☕ and take ~ 10 mins to check out the following mind-blowing demos 👀 🤯
+First time to Gentopia? Grab a coffee ☕ and 
+
+Take ~ 8 mins to check out the following demo tutorials 👀 🤯
+
+Or check out the [Quick Start](https://gentopia.readthedocs.io/en/latest/quick_start.html) Doc.
 
 <div style="display: flex; justify-content: space-around;">
   
@@ -73,7 +78,7 @@ First time to Gentopia? Grab a coffee ☕ and take ~ 10 mins to check out the fo
 
 </div>
 
-(Jump to the third one if you only have 3 mins 🤫)
+Jump to the third one if you only have 3 mins 🤫
 
 ## Documentation 📖
 See [here](https://gentopia.readthedocs.io/en/latest/index.html) for full documentation.
@@ -85,7 +90,7 @@ See [here](https://gentopia.readthedocs.io/en/latest/index.html) for full docume
 - [🦙 Open LLM Supports](https://gentopia.readthedocs.io/en/latest/agent_components.html#huggingface-open-llms)
 - [🧠 High-Performance Memory](https://gentopia.readthedocs.io/en/latest/agent_components.html#long-short-term-memory)
 
-## Build with us 🌎
+## Join us! 🌎
 
 Participate in this Utopia of superintelligence and help it grows! As a fully open-source project, we develop under public advice, ideas, and supervision. Meanwhile, here are ways you may contribute to Gentopia.
 
