@@ -58,9 +58,7 @@ or if you want to build with open LLMs locally 👉 `pip install gentopia[huggin
 
 First time to Gentopia? Grab a coffee ☕ and 
 
-Take ~ 8 mins to check out the following demo tutorials 👀 🤯
-
-Or check out the [Quick Start](https://gentopia.readthedocs.io/en/latest/quick_start.html) Doc.
+Take ~ 8 mins to check out the following demo tutorials [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/views/UC9QCjcsHJVKjKZ2Zmrq83vA)](https://www.youtube.com/channel/UC9QCjcsHJVKjKZ2Zmrq83vA) 
 
 <div style="display: flex; justify-content: space-around;">
   
@@ -78,7 +76,7 @@ Or check out the [Quick Start](https://gentopia.readthedocs.io/en/latest/quick_s
 
 </div>
 
-Jump to the third one if you only have 3 mins 🤫
+Or check out the [Quick Start](https://gentopia.readthedocs.io/en/latest/quick_start.html) Doc.
 
 ## Documentation 📖
 See [here](https://gentopia.readthedocs.io/en/latest/index.html) for full documentation.
