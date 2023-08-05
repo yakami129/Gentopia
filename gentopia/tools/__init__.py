@@ -12,6 +12,7 @@ from .search_doc import SearchDoc
 from .gradio import *
 from .code_interpreter import PythonCodeInterpreter
 from .file_operation import WriteFile, ReadFile
+from .duckduckgo import DuckDuckGo
 
 
 def load_tools(name: str) -> BaseTool:
@@ -34,6 +35,7 @@ def load_tools(name: str) -> BaseTool:
         "wikipedia": Wikipedia,
         "web_page": WebPage,
         "wolfram_alpha": WolframAlpha,
+        "duckduckgo": DuckDuckGo,
         "search_author_by_name": SearchAuthorByName,
         "search_author_by_interests": SearchAuthorByInterests,
         "author_uid2paper": AuthorUID2Paper,
