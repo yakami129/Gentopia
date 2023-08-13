@@ -1,5 +1,5 @@
 # Gentopia 
-🌎 *Collective Growth of Intelligent Agents.* 🦙
+🌎 *Agent Oriented Programming* 🦙
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
