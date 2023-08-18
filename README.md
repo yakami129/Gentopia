@@ -18,6 +18,9 @@
 
 Gentopia is a lightweight and extensible framework for LLM-driven [Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) and [ALM](https://arxiv.org/abs/2302.07842)  research. It provides essential components to build, test and evaluate agents. At its core, Gentopia aims to assemble an agent with a single config, thus minimizing your effort in building, tuning, and sharing agents. 
 
+<img width="1140" alt="image" src="https://github.com/Gentopia-AI/Gentopia/assets/65674752/8cb8ec87-6e50-44d5-aedc-c4994e9a8aa2">
+
+
 Gentopia maintains an agent platform [GentPool](https://github.com/Gentopia-AI/GentPool) to share specialized agents, where your agent *interacts* with other agents by cloning, hierarchical plug-in, or sharing environment. We provide a unique agent [benchmark](https://gentopia.readthedocs.io/en/latest/gentpool.html#agent-evaluation) for holistic evaluation. 
 
 ## Motivation 🧠
