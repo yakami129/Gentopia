@@ -90,10 +90,9 @@ See [here](https://gentopia.readthedocs.io/en/latest/index.html) for full docume
 - [🧠 High-Performance Memory](https://gentopia.readthedocs.io/en/latest/agent_components.html#long-short-term-memory)
 
 
-## Contributors 👷
-Check our homepage [here](https://gentopia-ai.github.io/Gentopia-AI-Homepage/#) (under construction). Thanks @huashen218 and @MurongYue for ramping this up!
+## News 👷
 
-**[Aug 6]** We've submitted our work as a paper for EMNLP 2023. Special thanks to the [team](https://gentopia-ai.github.io/Gentopia-AI-Homepage/#about) and professors from NCSU, GMU, and CMU for collaboration :)
+**[Aug 6]** We've submitted our work as a paper for EMNLP 2023. Special thanks to the research [team](https://gentopia-ai.github.io/Gentopia-AI-Homepage/#about) and professors from NCSU, GMU, and CMU for collaboration :)
 
 ## Join us! 🌎
 
