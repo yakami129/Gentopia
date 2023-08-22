@@ -1,7 +1,10 @@
 from typing import List, Union, Optional
 
 from gentopia.agent.base_agent import BaseAgent
-from gentopia.llm import OpenAIGPTClient, HuggingfaceLLMClient
+from gentopia.llm import OpenAIGPTClient
+from gentopia.utils.util import check_huggingface
+if check_huggingface():
+    from gentopia.llm import HuggingfaceLLMClient
 from gentopia.llm.base_llm import BaseLLM
 from gentopia.model.agent_model import AgentType
 from gentopia.output.base_output import BaseOutput

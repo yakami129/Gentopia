@@ -3,7 +3,6 @@ import signal
 import socket
 from typing import AnyStr, Tuple, List
 from time import sleep
-from gentopia.llm import HuggingfaceLLMClient
 from gentopia.llm.base_llm import BaseLLM
 from gentopia.llm.wrap_llm import WrapLLM
 from gentopia.manager.base_llm_manager import BaseLLMManager, BaseServerInfo

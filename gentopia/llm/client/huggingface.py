@@ -4,6 +4,8 @@ if not check_huggingface():
     raise ImportError("Huggingface LLM requires PyTorch and Transformers to be installed.")
 import json
 import os
+import torch
+from transformers import TextIteratorStreamer
 from typing import Generator, Optional
 from threading import Thread
 from pydantic import validator
