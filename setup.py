@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='gentopia',
-    version='0.0.4',
+    name='yk-gentopia',
+    version='0.0.1',
     packages=find_packages(exclude=['llm', 'llm.*']),
-    url='https://github.com/Gentopia-AI/Gentopia',
+    url='https://github.com/yakami129/Gentopia',
     license='MIT license',
     author='billxbf',
     author_email='billxbf@gmail.com',
@@ -15,6 +15,12 @@ setup(
             'huggingface': ['torch', 'transformers', 'optimum', 'peft'],
         },
     install_requires=[
+        'urllib3==1.26.16',
+        'h11==0.12.0',
+        'anyio==3.7.1',
+        'huggingface-hub==0.16.4',
+        'free-proxy',
+        'lxml==4.7.1',
         'tenacity',
         'python-dotenv',
         'arxiv',
@@ -29,7 +35,7 @@ setup(
         'prompt-toolkit',
         'regex',
         'attrs',
-        'fastapi',
+        'fastapi==0.99.1',
         'geopy',
         'pydantic==1.9',
         'pytest',
