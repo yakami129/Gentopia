@@ -7,6 +7,8 @@ from gentopia.assembler.agent_assembler import AgentAssembler
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 dotenv.load_dotenv(".env")  # load environmental keys
-agent = AgentAssembler(file=BASE_DIR+'/example/yml_file_agent/react_template.yaml').get_agent()
+file_url = BASE_DIR.as_posix() +'/yml_file_agent/react_template.yaml';
+print('file_url:',file_url)
+agent = AgentAssembler(file=file_url).get_agent()
 
 chat(agent) 

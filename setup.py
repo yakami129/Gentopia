@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='yk-gentopia',
+    name='gentopia',
     version='0.0.1',
     packages=find_packages(exclude=['llm', 'llm.*']),
     url='https://github.com/yakami129/Gentopia',
@@ -16,6 +16,7 @@ setup(
         },
     install_requires=[
         'urllib3==1.26.16',
+        'bibtexparser==1.3.0',
         'h11==0.12.0',
         'anyio==3.7.1',
         'huggingface-hub==0.16.4',
