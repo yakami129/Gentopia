@@ -26,6 +26,13 @@ class OpenAIGPTClient(BaseLLM, BaseModel):
     def __init__(self, **data):
         super().__init__(**data)
         openai.api_key = os.environ.get("OPENAI_API_KEY", "")
+        enable_proxy = os.environ.get('ENABLE_PROXY', False)
+        print("=> enable_proxy:",enable_proxy)
+        if enable_proxy:
+            http_proxy = os.environ['HTTP_PROXY']
+            https_proxy = os.environ['HTTPS_PROXY']
+            openai.proxy = {"http": http_proxy, "https": https_proxy}
+            print("=> proxy:",openai.proxy)
 
     def get_model_name(self) -> str:
         return self.model_name
@@ -59,7 +66,8 @@ class OpenAIGPTClient(BaseLLM, BaseModel):
             )
             return BaseCompletion(state="success",
                                   content=response.choices[0].message["content"],
-                                  prompt_token=response.get("usage", {}).get("prompt_tokens", 0),
+                                  prompt_token=response.get(
+                                      "usage", {}).get("prompt_tokens", 0),
                                   completion_token=response.get("usage", {}).get("completion_tokens", 0))
         except Exception as exception:
             print("Exception:", exception)
@@ -88,7 +96,8 @@ class OpenAIGPTClient(BaseLLM, BaseModel):
             return ChatCompletion(state="success",
                                   role=response.choices[0].message["role"],
                                   content=response.choices[0].message["content"],
-                                  prompt_token=response.get("usage", {}).get("prompt_tokens", 0),
+                                  prompt_token=response.get(
+                                      "usage", {}).get("prompt_tokens", 0),
                                   completion_token=response.get("usage", {}).get("completion_tokens", 0))
         except Exception as exception:
             print("Exception:", exception)
@@ -120,7 +129,7 @@ class OpenAIGPTClient(BaseLLM, BaseModel):
             )
             role = next(response).choices[0].delta["role"]
             messages = []
-            ## TODO: Calculate prompt_token and for stream mode
+            # TODO: Calculate prompt_token and for stream mode
             for resp in response:
                 messages.append(resp.choices[0].delta.get("content", ""))
                 yield ChatCompletion(state="success",
@@ -165,7 +174,8 @@ class OpenAIGPTClient(BaseLLM, BaseModel):
             if response_message.get("function_call"):
                 function_name = response_message["function_call"]["name"]
                 fuction_to_call = function_map[function_name]
-                function_args = json.loads(response_message["function_call"]["arguments"])
+                function_args = json.loads(
+                    response_message["function_call"]["arguments"])
                 function_response = fuction_to_call(**function_args)
 
                 # Postprocess function response
@@ -177,7 +187,8 @@ class OpenAIGPTClient(BaseLLM, BaseModel):
                     plugin_token = function_response.token_usage
                     function_response = function_response.output
                 else:
-                    raise Exception("Invalid tool response type. Must be on of [AgentOutput, str]")
+                    raise Exception(
+                        "Invalid tool response type. Must be on of [AgentOutput, str]")
 
                 message.append(dict(response_message))
                 message.append({"role": "function",
@@ -192,9 +203,11 @@ class OpenAIGPTClient(BaseLLM, BaseModel):
                                                  role=second_response.choices[0].message["role"],
                                                  content=second_response.choices[0].message["content"],
                                                  prompt_token=response.get("usage", {}).get("prompt_tokens", 0) +
-                                                              second_response.get("usage", {}).get("prompt_tokens", 0),
+                                                 second_response.get("usage", {}).get(
+                                                     "prompt_tokens", 0),
                                                  completion_token=response.get("usage", {}).get("completion_tokens", 0) +
-                                                                  second_response.get("usage", {}).get("completion_tokens", 0),
+                                                 second_response.get("usage", {}).get(
+                                                     "completion_tokens", 0),
                                                  message_scratchpad=message,
                                                  plugin_cost=plugin_cost,
                                                  plugin_token=plugin_token,
@@ -204,8 +217,10 @@ class OpenAIGPTClient(BaseLLM, BaseModel):
                 return ChatCompletionWithHistory(state="success",
                                                  role=response.choices[0].message["role"],
                                                  content=response.choices[0].message["content"],
-                                                 prompt_token=response.get("usage", {}).get("prompt_tokens", 0),
-                                                 completion_token=response.get("usage", {}).get("completion_tokens", 0),
+                                                 prompt_token=response.get(
+                                                     "usage", {}).get("prompt_tokens", 0),
+                                                 completion_token=response.get(
+                                                     "usage", {}).get("completion_tokens", 0),
                                                  message_scratchpad=message)
 
         except Exception as exception:
@@ -235,7 +250,8 @@ class OpenAIGPTClient(BaseLLM, BaseModel):
             if _type == "function_call":
                 name = tmp.choices[0].delta['function_call']['name']
                 yield _type, ChatCompletionWithHistory(state="success", role=role,
-                                                       content="{" + f'"name":"{name}", "arguments":',
+                                                       content="{" +
+                                                       f'"name":"{name}", "arguments":',
                                                        message_scratchpad=message)
             for resp in response:
                 # print(resp)
@@ -263,7 +279,6 @@ class OpenAIGPTClient(BaseLLM, BaseModel):
             #                     "content": function_response})
             #     second_response = self.function_chat_stream_completion(message=message,function_map=function_map,function_schema=function_schema)
             #     message.append(dict(second_response.choices[0].message))
-
 
         except Exception as exception:
             raise exception

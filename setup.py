@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gentopia',
-    version='0.0.1',
+    version='1.0.0',
     packages=find_packages(exclude=['llm', 'llm.*']),
     url='https://github.com/yakami129/Gentopia',
     license='MIT license',
